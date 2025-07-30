@@ -5,9 +5,9 @@ ZoomMtg.preLoadWasm();
 ZoomMtg.prepareWebSDK();
 
 function App() {
-  const authEndpoint = ""; // http://localhost:4000
-  const meetingNumber = "";
-  const passWord = "";
+  const authEndpoint = "https://yckfd07uph.execute-api.us-east-1.amazonaws.com/latest"; // http://localhost:4000
+  const meetingNumber = "96997150192";
+  const passWord = "123";
   const role = 0;
   const userName = "React";
   const userEmail = "";
